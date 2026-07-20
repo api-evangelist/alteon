@@ -1,0 +1,22 @@
+generated: '2026-07-17'
+method: searched
+source: https://support.radware.com/app/answers/answer_view/a_id/16798/~/how-to-authenticate-the-alteon-rest-api
+docs: https://support.radware.com/app/answers/answer_view/a_id/16280/~/alteon-rest-api
+notes: >-
+  The Alteon REST API is embedded in each Alteon device (accessed at
+  https://<device>/restdoc/, available from Alteon 34.0.4 / 33.5.8 / 33.0.12 and
+  above). There is no public multi-tenant OpenAPI to derive from, so this profile
+  is captured from Radware's documented auth model. Authentication is HTTP Basic
+  (username + password base64-encoded); Radware recommends restricting API access
+  over HTTPS.
+summary:
+  types:
+  - http
+  http_schemes:
+  - basic
+schemes:
+- name: basicAuth
+  type: http
+  scheme: basic
+  description: HTTP Basic authentication with device username/password (base64-encoded), over HTTPS.
+  docs: https://support.radware.com/app/answers/answer_view/a_id/16798/~/how-to-authenticate-the-alteon-rest-api
