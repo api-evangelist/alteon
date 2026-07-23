@@ -1,8 +1,30 @@
 aid: alteon
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alteon.png
 name: Alteon
-description: 'Alteon is a company surfaced as a portfolio company of matrix-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Alteon is Radware's application delivery controller (ADC) and advanced load
+  balancer product line, providing Layer 4-7 load balancing, SSL/TLS offloading,
+  application acceleration, global server load balancing, and integrated
+  application security across on-premises, virtual, and public-cloud
+  environments. Originally Alteon WebSystems (a Matrix Partners-backed company
+  that IPO'd in 1999 and was later acquired by Nortel), the Alteon product line
+  is now developed and supported by Radware. Alteon exposes a device-embedded
+  REST API (accessed at https://<device>/restdoc/, HTTP Basic auth, available
+  from Alteon 34.0.4 / 33.5.8 / 33.0.12 and above) plus first-party automation
+  clients including a Python SDK, a certified Terraform provider, and Ansible
+  modules.
 url: https://raw.githubusercontent.com/api-evangelist/alteon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +38,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Infrastructure
+- Application Delivery
+- Load Balancing
+- Application Delivery Controller
+- Application Security
+- Networking
+- Radware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,34 @@ maintainers:
 common:
 - type: Website
   url: https://radware.com
+- type: DeveloperPortal
+  url: https://www.radware.com/products/alteon/
+- type: Documentation
+  url: https://support.radware.com/app/answers/answer_view/a_id/16280/~/alteon-rest-api
+- type: APIReference
+  url: https://portals.radware.com/ProductDocumentation/
+- type: Support
+  url: https://support.radware.com/
+- type: Blog
+  url: https://www.radware.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/Radware
+- type: Authentication
+  url: authentication/alteon-authentication.yml
+- type: Packages
+  url: packages/alteon-packages.yml
+- type: SDKs
+  url: packages/alteon-packages.yml
+- type: Compliance
+  url: https://www.radware.com/newsroom/certifications/
+- type: Security
+  url: https://hackerone.com/radware
+- type: VulnerabilityDisclosure
+  url: security/alteon-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/alteon-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

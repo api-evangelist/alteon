@@ -1,0 +1,33 @@
+generated: '2026-07-17'
+method: searched
+source: PyPI + github.com/Radware + Terraform Registry
+notes: >-
+  First-party automation clients for Radware Alteon (application delivery
+  controller). The alteon-sdk PyPI package is published by Radware
+  (leonm@radware.com); the Terraform provider and Ansible collection live in the
+  Radware GitHub organization.
+packages:
+- language: python
+  registry: pypi
+  name: alteon-sdk
+  url: https://pypi.org/project/alteon-sdk/
+  install: pip install alteon-sdk
+  official: true
+  source_code: https://github.com/Radware
+  description: Python SDK to interact with Alteon via its REST backend (management + configuration).
+- language: hcl
+  registry: terraform
+  name: terraform-provider-alteon
+  url: https://github.com/Radware/terraform-provider-alteon
+  install: 'terraform { required_providers { alteon = { source = "Radware/alteon" } } }'
+  official: true
+  source_code: https://github.com/Radware/terraform-provider-alteon
+  description: Terraform provider for provisioning and managing application services on Alteon.
+- language: ansible
+  registry: ansible-galaxy
+  name: radware.radware_modules
+  url: https://github.com/Radware/radware-ansible
+  install: ansible-galaxy collection install radware.radware_modules
+  official: true
+  source_code: https://github.com/Radware/radware_alteon_modules
+  description: Radware Ansible Collection with certified Alteon automation modules.
