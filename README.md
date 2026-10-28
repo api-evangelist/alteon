@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Alteon is a company surfaced as a portfolio company of matrix-partners and added to the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead awaiting the enrichment pipeline.
+Alteon is Radware's application delivery controller (ADC) and advanced load balancer product line, providing Layer 4-7 load balancing, SSL/TLS offloading, application acceleration, global server load balancing, and integrated application security across on-premises, virtual, and public-cloud environments. Originally Alteon WebSystems (a Matrix Partners-backed company that IPO'd in 1999 and was later acquired by Nortel), the Alteon product line is now developed and supported by Radware. Alteon exposes a device-embedded REST API (accessed at https://<device>/restdoc/, HTTP Basic auth, available from Alteon 34.0.4 / 33.5.8 / 33.0.12 and above) plus first-party automation clients including a Python SDK, a certified Terraform provider, and Ansible modules.
 
-Backed by: matrix-partners — https://radware.com
+**Areas:** Company · Infrastructure · Application Delivery · Load Balancing · Application Delivery Controller · Application Security · Networking · Radware
+
+## Alteon on APIs.io
+
+Everything profiled for Alteon is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/alteon/](https://apis.io/providers/alteon/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Alteon Authentication](https://apis.io/security/alteon/alteon-authentication/)
+- [Alteon Domain Security](https://apis.io/security/alteon/alteon-domain-security/)
+- [Alteon Vulnerability Disclosure](https://apis.io/security/alteon/alteon-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://radware.com)
+- [Documentation](https://support.radware.com/app/answers/answer_view/a_id/16280/~/alteon-rest-api)
+- [API reference](https://portals.radware.com/ProductDocumentation/)
+- [Support](https://support.radware.com/)
+- [Blog](https://www.radware.com/blog/)
+- [Security](https://hackerone.com/radware)
+- [Compliance](https://www.radware.com/newsroom/certifications/)
+- [GitHub](https://github.com/Radware)
+
+## API Evangelist rating
+
+**Kin Score 19.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 7.9 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alteon/](https://apis.io/providers/alteon/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Alteon: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/alteon/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
